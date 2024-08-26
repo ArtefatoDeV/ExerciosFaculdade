@@ -1,10 +1,15 @@
-joao_Idade = 32
-pedro_Idade = 27
-lucas_Idade = 35
-rodolfo_Idade = 23
-maria_Idade =22
+idade_joao = 31
+idade_lucas = 35
+idade_marina = 22
+idade_rodofo = 23
+idade_pedro = 27
+soma_das_idades = idade_joao + idade_lucas + idade_marina + idade_rodofo + idade_pedro
 
-soma_Das_Idades = joao_Idade + pedro_Idade + lucas_Idade + rodolfo_Idade + maria_Idade
+print(f'Idade de joao: {idade_joao}')
+print(f'Idade de lucas: {idade_lucas}')
+print(f'Idade de marina: {idade_marina}')
+print(f'Idade de rodofo: {idade_rodofo}')
+print(f'Idade de pedro: {idade_pedro}')
+print()
 
-print(f'A somas das idade é: {soma_Das_Idades}')
-
+print(f'Soma_das_idades {soma_das_idades}')

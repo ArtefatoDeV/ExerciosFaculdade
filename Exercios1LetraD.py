@@ -1,4 +1,3 @@
-#Bom, como Fernando não completou a questão. Eu mesmo vou completar o restante :).
 
 valor_Em_Real = input('Escreva o valor em Real: ') # input é string, então não é valor numerico ainda!
 valor_Em_Real = float(valor_Em_Real)
