@@ -46,7 +46,21 @@ print(f'Vamos calcular em radianos do {ANGULO_DE_60} = {math.radians(ANGULO_DE_6
 print(f'Vamos calcular o SENO EM GRAUS de {ANGULO_DE_60} = {math.sin(math.radians(ANGULO_DE_60))}')   # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print(f'Vamos calcular o COSSENO EM GRAUS de {ANGULO_DE_60} = {math.cos(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print(f'Vamos calcular o TAGENTE EM GRAUS de {ANGULO_DE_60} = {math.tan(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
+print('\n')
+print(f'Vamos calcular o angulo de {ANGULO_DE_90} pata Seno , cosseno e tagente')
+print()
+print(f'Vamos calcular o seno do {ANGULO_DE_90} = {math.sin(ANGULO_DE_90)}')
+print(f'Vamos calcular o cosseno do {ANGULO_DE_90} = {math.cos(ANGULO_DE_90)}')
+print(f'Vamos calcular o tangente do {ANGULO_DE_90} = {math.tan(ANGULO_DE_90)}')
+print()
+print(f'Vamos calcular o radino do {ANGULO_DE_90} = {math.radians(ANGULO_DE_90)}')
+print('Vamos calcular o o SENO, COSSENO E TAGENTE EM GRAUS')
+print()
+print(f'Vamo calcular o SENO EM GRAUS do {ANGULO_DE_90} = {math.sin(math.radians(ANGULO_DE_90))}')
+print(f'Vamos calcular o COSSENO EM GRAUS do {ANGULO_DE_90} = {math.cos(math.radians(ANGULO_DE_90))}')
+print(f'Vamos calcular o TAGENTE EM GRAUS do {ANGULO_DE_90} = {math.tan(math.radians(ANGULO_DE_90))}')
 
-#Vamo ter que relembrar o passado kkk
+
+#Vamo ter que relembrar o passado da matematica kkk
 #Porque fiquei jogando truco kkkk
 
