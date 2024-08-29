@@ -18,12 +18,12 @@ print("PI: ", math.pi) # PI: 3.141592653589793
 """
 import math
 
-ANGULO_DE_45 = 45  #Estou usando uma CONSTANTE para fixar na cabeça.. No python não uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
-ANGULO_DE_60 = 60  #Estou usando uma CONSTANTE para fixar na cabeça.. No python não uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
-ANGULO_DE_90 = 90  #Estou usando uma CONSTANTE para fixar na cabeça.. No python não uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
-ANGULO_DE_180 = 180 #Estou usando uma CONSTANTE para fixar na cabeça.. No python não uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
-ANGULO_DE_270 = 270 #Estou usando uma CONSTANTE para fixar na cabeça.. No python não uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
-ANGULO_DE_360 = 360 #Estou usando uma CONSTANTE para fixar na cabeça.. No python não uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
+ANGULO_DE_45 = 45  #Estou usando uma CONSTANTE para fixar na cabeça.. No python não é uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
+ANGULO_DE_60 = 60  #Estou usando uma CONSTANTE para fixar na cabeça.. No python não é uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
+ANGULO_DE_90 = 90  #Estou usando uma CONSTANTE para fixar na cabeça.. No python não é uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
+ANGULO_DE_180 = 180 #Estou usando uma CONSTANTE para fixar na cabeça.. No python não é uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
+ANGULO_DE_270 = 270 #Estou usando uma CONSTANTE para fixar na cabeça.. No python não é uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
+ANGULO_DE_360 = 360 #Estou usando uma CONSTANTE para fixar na cabeça.. No python não é uma DECLARAÇÃO DE CONSTANTE  mas, a comunidade colocou que toda VARIAVEL MAIÚSCULA é uma constante...
 
 print(f'Vamos calcular o seno, cosseno, e tagente do angulo {ANGULO_DE_45}.')
 print()
@@ -36,17 +36,19 @@ print()
 print(f'Calculando o SENO em graus do {ANGULO_DE_45} = {math.sin(math.radians(ANGULO_DE_45))}')
 print(f'Calculando o COSSENO em graus {ANGULO_DE_45} = {math.cos(math.radians(ANGULO_DE_45))}')
 print(f'Calculando o tagente em graus {ANGULO_DE_45} = {math.tan(math.radians(ANGULO_DE_45))}')
-print('\n')
+print()
 print(f'Vamos calcular o seno, cosseno e tagente do angulo {ANGULO_DE_60}.')
 print()
 print(f'Vamos calcular o seno de {ANGULO_DE_60} = {math.sin(ANGULO_DE_60)}')
 print(f'Vamos calcular o cosseno de {ANGULO_DE_60} = {math.cos(ANGULO_DE_60)}')
 print(f'Vamos calcular o tagenet do {ANGULO_DE_60} = {math.tan(ANGULO_DE_60)}')
+print()
 print(f'Vamos calcular em radianos do {ANGULO_DE_60} = {math.radians(ANGULO_DE_60)}')
+print()
 print(f'Vamos calcular o SENO EM GRAUS de {ANGULO_DE_60} = {math.sin(math.radians(ANGULO_DE_60))}')   # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print(f'Vamos calcular o COSSENO EM GRAUS de {ANGULO_DE_60} = {math.cos(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print(f'Vamos calcular o TAGENTE EM GRAUS de {ANGULO_DE_60} = {math.tan(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
-print('\n')
+print()
 print(f'Vamos calcular o angulo de {ANGULO_DE_90} pata Seno , cosseno e tagente')
 print()
 print(f'Vamos calcular o seno do {ANGULO_DE_90} = {math.sin(ANGULO_DE_90)}')
@@ -59,8 +61,40 @@ print()
 print(f'Vamo calcular o SENO EM GRAUS do {ANGULO_DE_90} = {math.sin(math.radians(ANGULO_DE_90))}')
 print(f'Vamos calcular o COSSENO EM GRAUS do {ANGULO_DE_90} = {math.cos(math.radians(ANGULO_DE_90))}')
 print(f'Vamos calcular o TAGENTE EM GRAUS do {ANGULO_DE_90} = {math.tan(math.radians(ANGULO_DE_90))}')
-
-
-#Vamo ter que relembrar o passado da matematica kkk
-#Porque fiquei jogando truco kkkk
-
+print()
+print(f'Vamos calcular o seno, cosseno e targente do angulo de {ANGULO_DE_180}')
+print()
+print(f'Vamos calcular o se do angulo {ANGULO_DE_180} = {math.sin(ANGULO_DE_180)}')
+print(f'Vamos calcular o cosseno do angulo de {ANGULO_DE_180} = {math.cos(ANGULO_DE_180)}')
+print(f'Vamos calcular o tangente do angulo de {ANGULO_DE_180} = {math.tan(ANGULO_DE_180)}')
+print()
+print(f'Vamos calcular o radiante do angulo de {ANGULO_DE_180} = {math.radians(ANGULO_DE_180)}')
+print()
+print(f'Vamos calcular o SENO EM GRAUS do angulo {ANGULO_DE_180} = {math.sin(math.radians(ANGULO_DE_180))}')
+print(f'Vamos calcular o COSSENO EM GRAUS do angulode {ANGULO_DE_180} = {math.cos(math.radians(ANGULO_DE_180))}')
+print(f'Vamos calcular o TAGENTE EM GRAUS do {ANGULO_DE_180} = {math.tan(math.radians(ANGULO_DE_180))}')
+print()
+print('Vamos calcular o seno, cosseno e tagente do angulo de', ANGULO_DE_270) #Sem formatação so para fixar
+print()
+print('Vamos calcular o seno do angulo de', ANGULO_DE_270,'=', math.sin(ANGULO_DE_270))
+print(f'Vamos calcular o cosseno do angulo de {ANGULO_DE_270} = {math.cos(ANGULO_DE_270)}')
+print(f'Vamos calcular o tagente do angulo de {ANGULO_DE_270} = {math.tan(ANGULO_DE_270)}')
+print()
+print(f'Vamos calcular o radiano do angulo {ANGULO_DE_270} = {math.radians(ANGULO_DE_270)}')
+print()
+print(f'Vamos calcular o SENO EM GRAUS do angulos{ANGULO_DE_270} = {math.sin(math.radians(ANGULO_DE_270))}')
+print(f'Vamos calcular o COSSENO EM GRUAS do angulo {ANGULO_DE_270} = {math.cos(math.radians(ANGULO_DE_270))}')
+print(f'Vamos calcular o TAGENTE EM GRAUS do angulo {ANGULO_DE_270} = {math.tan(math.radians(ANGULO_DE_270))}')
+print()
+print(f'Vamos calcular o seno, cosseno e targente do angulo de {ANGULO_DE_360}')
+print()
+print(f'Vamos calcular o se do angulo {ANGULO_DE_360} = {math.sin(ANGULO_DE_360)}')
+print(f'Vamos calcular o cosseno do angulo de {ANGULO_DE_360} = {math.cos(ANGULO_DE_360)}')
+print(f'Vamos calcular o tangente do angulo de {ANGULO_DE_360} = {math.tan(ANGULO_DE_360)}')
+print()
+print(f'Vamos calcular o radiante do angulo de {ANGULO_DE_360} = {math.radians(ANGULO_DE_360)}')
+print()
+print(f'Vamos calcular o SENO EM GRAUS do angulo {ANGULO_DE_360} = {math.sin(math.radians(ANGULO_DE_360))}')
+print(f'Vamos calcular o COSSENO EM GRAUS do angulode {ANGULO_DE_360} = {math.cos(math.radians(ANGULO_DE_360))}')
+print(f'Vamos calcular o TAGENTE EM GRAUS do {ANGULO_DE_360} = {math.tan(math.radians(ANGULO_DE_360))}')
+print()
