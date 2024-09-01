@@ -9,3 +9,6 @@ print(id(nome)) # Sem ser hex... é tudo int então é de boa fazer a conta.
 print()
 print(type(nome)) # type verifica tipo imutavel da variavel.
 print(type(peso)) # type verifica tipo imutavel da variavel.
+print()
+
+print('Soma:','\n',12, sep='')

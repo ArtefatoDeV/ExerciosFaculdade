@@ -45,7 +45,7 @@ print(f'Vamos calcular o tagenet do {ANGULO_DE_60} = {math.tan(ANGULO_DE_60)}')
 print()
 print(f'Vamos calcular em radianos do {ANGULO_DE_60} = {math.radians(ANGULO_DE_60)}')
 print()
-print(f'Vamos calcular o SENO EM GRAUS de {ANGULO_DE_60} = {math.sin(math.radians(ANGULO_DE_60))}')   # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
+print(f'Vamos calcular o SENO EM GRAUS de {ANGULO_DE_60} = {math.sin(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print(f'Vamos calcular o COSSENO EM GRAUS de {ANGULO_DE_60} = {math.cos(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print(f'Vamos calcular o TAGENTE EM GRAUS de {ANGULO_DE_60} = {math.tan(math.radians(ANGULO_DE_60))}') # Para calcular em GRAUS seja sin, cos ou tan... Deve primeiro par pelo RADIANS 
 print()

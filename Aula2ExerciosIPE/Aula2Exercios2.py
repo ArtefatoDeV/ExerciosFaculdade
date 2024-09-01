@@ -2,6 +2,7 @@ nome_do_curso = 'Ciência da computação'
 numero_da_matricula = 'G896890'
 idade = 18
 
+
 print(nome_do_curso)
 print(numero_da_matricula)
 print(idade)
@@ -14,3 +15,8 @@ print(f'O tipo da varivel "nome_do_curso" {type(nome_do_curso)}')
 print(f'O tipo da variavel "numero_da_matricula" {type(numero_da_matricula)}')
 print(f'O tipo da varivael "idade" {type(idade)}')
 print()
+
+
+
+
+

@@ -38,10 +38,10 @@ print(f'Vamos fazer o arredontamento para BAIXO da varivel {d} = {math.floor(d)}
 print(f'Vamos fazer o arredontamento para CIMA da variavel {e} = {math.ceil(e)}')
 print(f'Vamos fazer o arredontamento para BAIXO da variavel {e} = {math.floor(e)}')
 print()
-print(f'Valor absoluto da variavel {a} = {math.fabs(a)}')
-print(f'Valor absoluto da variavel {b} = {math.fabs(b)}')
-print(f'Valor absoluto da variavel {c} = {math.fabs(c)}')
-print(f'Valor absoluto da variavel {d} = {math.fabs(d)}')
-print(f'Valor absoluto da variavel {e} = {math.fabs(e)}')
+print(f'Valor absoluto da variavel {a} = {math.fabs(a)}') # Lembra que tem ser ponto 
+print(f'Valor absoluto da variavel {b} = {math.fabs(b)}') # Lembra que tem ser ponto 
+print(f'Valor absoluto da variavel {c} = {math.fabs(c)}') # Lembra que tem ser ponto 
+print(f'Valor absoluto da variavel {d} = {math.fabs(d)}') # Lembra que tem ser ponto 
+print(f'Valor absoluto da variavel {e} = {math.fabs(e)}') # Lembra que tem ser ponto 
 print()
 print(f'Fernando tirando com tanto exercios kkk')
