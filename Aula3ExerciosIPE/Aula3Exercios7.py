@@ -7,7 +7,7 @@ try:
     Numero_da_residencia = int(Numero_da_residencia)
 except:
     while Numero_da_residencia.isdigit() == False:
-        print('Cara vai se fuder kkk burro demas')
+        print('Cara vai se FUDER kkk burro dems')
         Numero_da_residencia = input('Digite novamente: ')
         print()
     Numero_da_residencia = int(Numero_da_residencia)
@@ -25,4 +25,4 @@ elif Numero_da_residencia > 65:
     print(f'Seu endereço é {Endereco}')
     print('você pagará o IPTU à vista')
 else:
-    print('Nem vou vou fazer a logica do negativo vai se fuder boot')
+    print('Nem vou vou fazer a logica do negativo vai se FUDER boot')

@@ -20,4 +20,4 @@ elif pontos_digitados == VERIFICACAO_PONTOS:
 elif pontos_digitados > VERIFICACAO_PONTOS:
     print('Voce não é legal... vai SE FUDER... E TOME MULTA')
 else:
-    print('Digitou numero negativo de DESGRACADO')
+    print('Digitou numero negativo de DESGRAÇADO')

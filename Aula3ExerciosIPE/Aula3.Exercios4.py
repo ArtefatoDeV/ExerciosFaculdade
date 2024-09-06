@@ -17,8 +17,8 @@ try:
     media = (number1 + number2 + number3 + number4) / 4
     print(f'Olha a media ae: {media:.2f}')
  
-except:
-    print('Parece que vc digitou string ou seila to com sono para fazer logica')
+except ValueError:
+    print('Parece que vc digitou string ou seila O QUE to com sono para fazer logica para não aver erros')
    
 """"
 try:
