@@ -9,6 +9,11 @@ except ValueError:
     while boas_acoes.isdigit() == False:
         print('Cara eu desito vc é uma anta kkk. Excreva um número inteiro mas que não seja negativo.')
         boas_acoes = input('Digite novamnete: ')
+        try:
+            boas_acoes = int(boas_acoes)
+            break
+        except:
+            continue
 
     boas_acoes = int(boas_acoes) 
     print()
